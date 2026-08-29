@@ -1,0 +1,5 @@
+C++ is used for developing high performace application , games , sys software
+
+fast execution spped and direct memory management capabilities
+widely used in OS , competitive programming
+
