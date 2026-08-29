@@ -3,3 +3,17 @@ C++ is used for developing high performace application , games , sys software
 fast execution spped and direct memory management capabilities
 widely used in OS , competitive programming
 
+-------------------
+
+header file : #include<iostream> , adds input/output , common headers fstream (files) vector(stl) , bits/stdc++.h
+
+namespace declaration : allow direct use of standard name cout without std::
+
+main function : programs entry point , execution starts here and returns an integer with return 0 means successful execution
+
+return : return 0 , statement terminates mains() function and indicates that program executed successfully
+
+Input and Output operations 
+cin>>
+cout<<
+
