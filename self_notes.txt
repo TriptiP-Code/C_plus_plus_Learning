@@ -17,3 +17,41 @@ Input and Output operations
 cin>>
 cout<<
 
+any space in the input means the input is ended
+e.g like if cin>>tripti pandey
+it means if cout<< is done then only tripti is printed
+
+----------------------------------------
+
+Identifiers
+
+user defined names , represent program elemets such as variables , function , classes and objects
+
+inshort indentifiers means name
+class Identifiers
+method Identifiers
+variable Identifiers
+object Identifiers
+
+Rules for Naming Identifiers
+A-Z, or a-z, 0-9, _
+special char and spaces not allowed
+
+only begin with letter or _
+
+reserved keywords cannot be used as identifier 
+
+unique within scope or namespace 
+
+case sensitive
+
+-----------------------------
+
+keywords
+
+reserved words with special meaning
+if keyword mistakenly used as variable name ,then code will not compile
+
+
+
+
