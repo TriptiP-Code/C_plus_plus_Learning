@@ -52,6 +52,84 @@ keywords
 reserved words with special meaning
 if keyword mistakenly used as variable name ,then code will not compile
 
+Categories of C++ keywords
+Data types : bool , char , int , long , short , signed , unsigned , float , double , void
+
+Control flow : if , else , switch , default , for , while , do , break , continue, goto
+
+boolean and null : true , false , nullptr
+
+memory management : new , delete , sizeof , alignas 
+
+classes and structs : class , union , enum , mutable this
+
+access specifiers : public , private , protected
+
+functions and modifiers : inline , explicit , virtual , overrise , final, typedef
+
+-------------------------------
+
+DATA TYPES in C++
+
+form of data representation , defines the kind of value it can store 
+data types determine memory allocation 
+
+Types of data types
+
+Basic data types
+
+int :  stores integer value int n =100; 4 bytes  
+
+float : stores decimal numbers using float keyword , 4 bytes ,  stores 1.2e-38 to 3.4 e+38 float f =36.5f;
+
+double : store decimal numbers with higher precision than float , 8 bytes , double pi =3.14817672798465
+
+char : stores single char enclosed in single quotes , 1 byte , ASCII value e.g char c = 'A';
+
+bool : stores logical value , true(1) or false(0) , size 1 byte  e.g bool isTrue = true;
+
+void : represent absence of value , not to create a variable of void type , it is used for pointer and functions ,that does not return any value using keyword void 
+
+
+
+Derieved data types
+
+array : stores multiple values of same type in contiguous memory locations
+
+pointer : stores memory address of another variable 
+
+reference : it acts as alias for exixting variable 
+
+function : used to represent a derieved type because they have specific return type and parameter types
+
+
+User Defined data types
+
+class : it combines data functions into single unit
+
+structure : used to groups related variables under one name 
+
+union : allows multiple members to share same memory location
+
+typedef
+using 
+
+SIZE OF OPERATOR
+
+cout<<sizeof(int);
+
+Data Type Modifiers 
+
+It can alter the size , range or representation of certain fundamental data types
+commonly modifiers are 
+
+short : smaller integer types supported
+long : integer type with least as much storage as int
+signed : allows integer to represent both positive and negative values
+unsigned : integer type of non negative values are provided
+
+
+
 
 
 
