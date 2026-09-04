@@ -128,6 +128,17 @@ long : integer type with least as much storage as int
 signed : allows integer to represent both positive and negative values
 unsigned : integer type of non negative values are provided
 
+---------------------------------------------------------------
+
+OPERATOR 
+
+Symbols that operate on values to perfrm specific mathemcatical or logical computation on given values
+
+int a = 10 + 20;
+
+
+
+
 
 
 
