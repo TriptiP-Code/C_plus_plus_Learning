@@ -136,6 +136,21 @@ Symbols that operate on values to perfrm specific mathemcatical or logical compu
 
 int a = 10 + 20;
 
+6 types of Operators 
+
+Arithmetic Operator
+
+Additon +
+substraction -
+multiplication *
+division /
+
+modulo % gives reminder also when division by zero gives compile time error
+
+increment ++
+decrement --
+
+
 
 
 
