@@ -171,9 +171,18 @@ Bitwise Operators
 Binary AND &
 Binary OR |
 Binary XOR ^
-Left Shift <<
-Right Shift >>
-One's Complement ~
+Left Shift << shift the value to left by the number of bits specified
+Right Shift >> shift the value to right by number of bits specified
+One's Complement ~ changes digit 1 to 0 and 0 to 1
+
+a & b
+a | b
+a ^ b
+a << 1
+a >> 1
+~(a)
+
+
 
 
 
