@@ -201,7 +201,22 @@ expression 1 ? expression 2 : expression 3
 int result = (a <b )?b:a;
 
 
+MISCELLANEOUS Operators
 
+sizeof(char);
+sizeof(var_name);
+
+Comma Operator
+ ,
+
+ addressof Operator ( & )
+ is used to find the memory address in which a particular variable is stored , it is also used to create a refrenece
+
+ Dot operator ( . ) is used to access members of structure variables or class objects using their object names
+
+ Arroe operator -> is used to access variables of classes or structures throught its pointer
+
+ 
 
 
 
