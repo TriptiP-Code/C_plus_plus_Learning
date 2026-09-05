@@ -222,7 +222,38 @@ TYPE CASTING OPERATOR
 char c = 'a';
 int i = static_cast<int>(c);
 
+DECISION MAKING in C++
 
+it is about conditional execution of part of code 
+
+if else 
+
+if(conditon){ }
+
+if else
+
+if (condition) { }
+else { }
+
+if else if
+
+if (condition 1) { }
+else if (condition 2) { }
+else { }
+
+nested if 
+
+if(condition 1)
+ {
+  if (confition){ }
+  else { }
+  }
+else {
+  if(condition) {
+
+  }
+  else { }
+}
 
 
 
