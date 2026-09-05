@@ -216,7 +216,16 @@ Comma Operator
 
  Arroe operator -> is used to access variables of classes or structures throught its pointer
 
- 
+
+TYPE CASTING OPERATOR
+
+char c = 'a';
+int i = static_cast<int>(c);
+
+
+
+
+
 
 
 
