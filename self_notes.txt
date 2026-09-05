@@ -183,6 +183,14 @@ a >> 1
 ~(a)
 
 
+ASSIGNMENT OPERATOR
+
+= , += , -= , *= , /=
+
+a += b;
+a *= b;
+a /= b;
+
 
 
 
