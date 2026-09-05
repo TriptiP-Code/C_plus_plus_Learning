@@ -3,7 +3,7 @@ using namespace std;
 
 int main(){
 
-  char c ='B';
+  char c ='C';
   switch (c){
 
     case 'A':
@@ -11,8 +11,11 @@ int main(){
     break;
 
     case 'B' :
-    cout << "greesksforgreeeks"
+    cout << "greesksforgreeeks";
     break;
+
+    default :
+    cout <<"invalid input";
   }
   return 0;
 }
