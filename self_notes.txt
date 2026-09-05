@@ -150,6 +150,32 @@ modulo % gives reminder also when division by zero gives compile time error
 increment ++
 decrement --
 
+Relational Operators
+
+comparision of values of 2 operands 
+== equals to
+> , >=
+< ,<=
+!=
+
+Logical Operator
+
+Logical AND , logical OR , logical NOT 
+
+a && b
+a || b
+!b
+
+Bitwise Operators
+
+Binary AND &
+Binary OR |
+Binary XOR ^
+Left Shift <<
+Right Shift >>
+One's Complement ~
+
+
 
 
 
