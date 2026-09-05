@@ -192,6 +192,17 @@ a *= b;
 a /= b;
 
 
+Ternary or Conditional Operators
+
+
+Return value based on the condition , 3 operands are used therefore its called ternary 
+expression 1 ? expression 2 : expression 3
+
+int result = (a <b )?b:a;
+
+
+
+
 
 
 
