@@ -306,7 +306,22 @@ by reference : for (auto &iy : arr) , you can modify elements directly
 
 INFINITE LOOPS
 
-it is endless loop with functional exit that repeats indefinitely
+it is endless loop with functional exit that repeats indefinitely 
+
+NESTING OF LOOPS 
+
+one loop inside another , inner loop is executed completely for each iteration of outer loop 
+
+iteration over 2d array
+
+BREAK OUT LOOP
+
+Break statement when encountered , terminates the loop regardless of test condition 
+
+CONTINUE statement
+
+skips particular iteration 
+skips the remaining code inside current iteration of loop and proceeds to next iteration 
 
 
 
