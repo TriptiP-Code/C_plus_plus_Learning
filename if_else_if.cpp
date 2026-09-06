@@ -9,7 +9,7 @@ int main()
     cout <<"child";
   }
   else if (age >=1 and age <= 18){
-    cout<<"growing stage"
+    cout<<"growing stage";
   }
   else{
     cout<<"adult";
