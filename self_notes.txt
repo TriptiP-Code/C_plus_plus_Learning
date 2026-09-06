@@ -287,6 +287,27 @@ while (condition)
   //update expression;
 }
 
+DO WHILE LOOP
+
+do {
+  //body of the loop
+  // update expression
+}while (condition);
+
+FOR EACH LOOP
+
+is range based for loop , automatically iterates over each element of a container or array using containers begin() and end() function
+
+Use of reference v/s value 
+
+by value : for(auto it : arr) , works on a copy , modifications wont affect the original
+
+by reference : for (auto &iy : arr) , you can modify elements directly
+
+INFINITE LOOPS
+
+it is endless loop with functional exit that repeats indefinitely
+
 
 
 
