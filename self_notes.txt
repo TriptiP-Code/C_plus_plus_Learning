@@ -323,7 +323,11 @@ CONTINUE statement
 skips particular iteration 
 skips the remaining code inside current iteration of loop and proceeds to next iteration 
 
+FUNCTION  
+a reusable block of code that performs specific task
+divide program into smaller logical units ,improve readability and makes code easier
 
+it accepts parameters , execute statements , return value
 
 
 
