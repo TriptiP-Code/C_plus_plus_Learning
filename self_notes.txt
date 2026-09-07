@@ -330,8 +330,21 @@ divide program into smaller logical units ,improve readability and makes code ea
 it accepts parameters , execute statements , return value
 
 
+FUNCTION SYNTAX
 
+return_type function_name (parameter_list)
+{
+  //function body
+  return expression;
+}
 
+Return type : specifies type of return , if there is no return value then use void
+
+function name : use to call the function
+
+parameter list : inputs that function accept , it can empty if no input is needed
+
+funtion body : the block of code that return funtion when it is called
 
 
 
