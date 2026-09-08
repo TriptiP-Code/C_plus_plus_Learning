@@ -396,6 +396,16 @@ User defined functions :
 
 created by the programmer to perform specific tasks in the program
 
+Based on input and return type
+
+No parameters , no return value :  the function performs a task but does not take input or return anything
+
+Parameters , no return value : the function takes input but does not return a result
+
+no parameters , return value : the function returns a result but does not take any input
+
+parameters and return value : the function takes input and returns a result
+
 
 
 
