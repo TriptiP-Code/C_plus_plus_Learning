@@ -371,6 +371,19 @@ greet() function : parameterless void function that prints a welcome message and
 
 multiply(int a, int b) function : takes 2 intgers , returns their product and is called in main() with 4 and 5 storing the result which is then printed
 
+PARAMETERS OR ARGUMENTS 
+
+Function can accept input values called arguments , which are passed during the function call and received through types 
+
+parameters defined inside the function parantheses 
+
+e.g return_type name(type 1 name 1 , type2 name2)
+{
+  //function body
+  return val;
+}
+
+
 
 
 
