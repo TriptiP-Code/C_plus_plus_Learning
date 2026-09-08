@@ -348,7 +348,17 @@ funtion body : the block of code that return funtion when it is called
 
 FUNCTION DECLARATION v/s DEFINITION
 
-declaration introduces a function to the compiler by specifying its 
+declaration introduces a function to the compiler by specifying its  return type , name and parameters without the body and is used when the function is defined later in another file
+e.g int add(int , int);
+
+definition contains the actual code that specifies what the function does when it is called
+e.g 
+int add(int a , int b)
+{
+  return a+b;
+}
+
+
 
 
 
