@@ -346,6 +346,9 @@ parameter list : inputs that function accept , it can empty if no input is neede
 
 funtion body : the block of code that return funtion when it is called
 
+FUNCTION DECLARATION v/s DEFINITION
+
+declaration introduces a function to the compiler by specifying its 
 
 
 
