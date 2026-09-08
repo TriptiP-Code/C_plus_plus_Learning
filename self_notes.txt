@@ -407,6 +407,14 @@ no parameters , return value : the function returns a result but does not take a
 parameters and return value : the function takes input and returns a result
 
 
+FUNCTION OVERLOADING 
+
+allows us to define multiple functions with the same name but with different parameters , so the same function name can perform different tasks depending on the values and types of arguments passed
+
+Avoids name conflicts and unnecessary function names 
+makes the code easy to understand and makeing user friendly as the same meaningful function name is used for diff types of inputs
+
+
 
 
 
