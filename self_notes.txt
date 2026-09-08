@@ -384,6 +384,19 @@ e.g return_type name(type 1 name 1 , type2 name2)
 }
 
 
+TYPES OF FUNCTIONS IN C++
+
+Based on origin
+
+Library functions :
+built in functions provided by c++ standard libraries , such as sqrt() , abs() , getline() 
+it can be used by including appropriate header like <iostream> ,<cmath> , <string>
+
+User defined functions :
+
+created by the programmer to perform specific tasks in the program
+
+
 
 
 
