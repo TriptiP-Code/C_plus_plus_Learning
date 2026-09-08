@@ -414,6 +414,25 @@ allows us to define multiple functions with the same name but with different par
 Avoids name conflicts and unnecessary function names 
 makes the code easy to understand and makeing user friendly as the same meaningful function name is used for diff types of inputs
 
+asssume that u have to add 2 integers it is easy to make a function for that 
+
+int add2(int a , int b)
+{
+  return a+b;
+}
+
+now assume that u also need a function that adds 3 integers , once method is to create another function with diff name
+
+int add3(int a , int b , int c)
+{
+  return a+b+c
+}
+
+
+but it may be diffi ult for u to understand the behaviour of funtion because its name differs , moreover it is very possible to forget about other function
+
+this is where function overloading comes into play , it allows us to create both of the functions with same name as shown 
+
 
 
 
