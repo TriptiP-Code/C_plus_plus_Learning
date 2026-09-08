@@ -454,6 +454,19 @@ int main() {
 }
 
 
+DIFFERENT WAYS OF FUNCTION OVERLOADING
+
+3 ways of function overloading are:
+
+by having diff number of parameters 
+by havinf diff types of parametersby having both diff number and and types of parameters
+
+Different number of parameters
+
+we can overload a function by changing the number of parameters that it accepts
+
+
+
 
 
 
