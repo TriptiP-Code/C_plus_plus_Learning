@@ -433,6 +433,28 @@ but it may be diffi ult for u to understand the behaviour of funtion because its
 
 this is where function overloading comes into play , it allows us to create both of the functions with same name as shown 
 
+#include <iostream>
+using namespace std;
+
+int add(int a, int b) {
+    return a + b;
+}
+// Same function with different arguments
+int add(int a, int b, int c) {
+    return a + b + c;
+}
+
+int main() {
+    int a = 5, b =7, c = 11;
+    // Add function to add two numbers
+    cout << add(a, b) << endl;
+    // Add function to add three numbers
+    cout << add(a, b, c);
+    return 0;
+}
+
+
+
 
 
 
