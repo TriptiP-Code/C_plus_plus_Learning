@@ -14,6 +14,6 @@ int main()
 {
   greet();
   int result =multiply (4,5);
-  cout<<"mu;tiplication result"<<result <<endl;
+  cout<<"multiplication result is : "<<result <<endl;
   return 0;
 }
