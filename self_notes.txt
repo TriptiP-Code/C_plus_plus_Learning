@@ -461,9 +461,15 @@ DIFFERENT WAYS OF FUNCTION OVERLOADING
 by having diff number of parameters 
 by havinf diff types of parametersby having both diff number and and types of parameters
 
-Different number of parameters
+1. Different number of parameters
 
 we can overload a function by changing the number of parameters that it accepts
+
+2. Different types of parameters
+
+we can also chnage the type of data , of parameters while keeping the same function name in function overloading
+
+
 
 
 
