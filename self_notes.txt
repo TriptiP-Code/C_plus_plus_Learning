@@ -488,10 +488,20 @@ there could be cases where c++ compiler cannot differenciate between functions a
 4.Function with same parameter but diff volatile type specifier
 
 
+FUNCTION OVERLOADING V/S FUNCTION OVERRIDING
 
 
+FOL : Same function name with diff parameters
+FOR: Same function with same para but diff function definition
 
+FOL:  To create multiple functions that perform similar tasks with carying arguments
+FOR:  to change or extend the behaviour of an inherited function
 
+FOL: Function signatutrs should be diff
+FOR: Function signature should be similar (name , return type , parameters)
+
+FOL:  Done at compile time 
+FOR: Done at run time 
 
 
 
