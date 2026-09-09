@@ -474,6 +474,19 @@ we can also chnage the type of data , of parameters while keeping the same funct
 functions can also be overloaded by changing both the number and types of parameters
 
 
+There are functions that cannot be overloaded
+
+as function overloading is primarily based on the function name and the types of number of its parameters 
+there could be cases where c++ compiler cannot differenciate between functions and thus cannot be overloaded
+
+1. member function declaration with diff access specifier but same name and same parameter type list cannot be overloaded
+
+2. functions with parameter declaration that differ only in a pointer * versus and array [];
+
+3. function with same parameter but diff passing methods
+
+4.Function with same parameter but diff volatile type specifier
+
 
 
 
