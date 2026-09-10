@@ -517,6 +517,11 @@ a variables value is copied and then passed to the function as the result any ch
 the method is simple easy to implement but it is not preferred for large size of data structures as it involves copyint the value 
 
 
+PASS BY REFERENCE 
+
+In pass by reference method instead of passing the value of the argument , we pass the refernece of an argument to the function , this allows the function to change the value of the original argument , this is useful when u have to pass large size data  
+
+
 
 
 
