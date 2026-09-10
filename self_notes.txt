@@ -521,6 +521,10 @@ PASS BY REFERENCE
 
 In pass by reference method instead of passing the value of the argument , we pass the refernece of an argument to the function , this allows the function to change the value of the original argument , this is useful when u have to pass large size data  
 
+PASS BY POINTER 
+
+pass by pointer is very similar to the pass by reference method , the only difference is that we pass the raw address of the argument as the parameter to the function instead of reference
+
 
 
 
