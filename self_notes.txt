@@ -511,6 +511,11 @@ formal parameters : variables used in parameter list of a function as placeholde
 
 actual parameters : expressions or values passed in during a function call , also called arguments 
 
+PASS BY value
+
+a variables value is copied and then passed to the function as the result any changes to the parameter inside the function will not affect the variables original value in the caller
+the method is simple easy to implement but it is not preferred for large size of data structures as it involves copyint the value 
+
 
 
 
