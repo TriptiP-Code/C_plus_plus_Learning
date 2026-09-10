@@ -503,6 +503,14 @@ FOR: Function signature should be similar (name , return type , parameters)
 FOL:  Done at compile time 
 FOR: Done at run time 
 
+PARAMETER PASSING TECHNIQUES 
+
+data is passed to functions during a call to perform operations , this data is know as parameters or arguments and c++ supports various parameter passing tech 
+
+formal parameters : variables used in parameter list of a function as placeholders  , also called only parameters
+
+actual parameters : expressions or values passed in during a function call , also called arguments 
+
 
 
 
