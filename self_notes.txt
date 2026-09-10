@@ -525,6 +525,14 @@ PASS BY POINTER
 
 pass by pointer is very similar to the pass by reference method , the only difference is that we pass the raw address of the argument as the parameter to the function instead of reference
 
+DEFAULT ARGUMETS IN C++
+
+A default argument is a value provided for a parameter in a function declaration that is automatically assigned by the compiler if no valye is provided for those parameters in the function call 
+
+default arguments must be present on the right side only , once a default argument is provided , all the argument is provided, all the arguments to its right must also be defaults
+
+it is recommended to specify them in function declaration (usually in the header)
+
 
 
 
