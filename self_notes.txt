@@ -533,6 +533,16 @@ default arguments must be present on the right side only , once a default argume
 
 it is recommended to specify them in function declaration (usually in the header)
 
+Syntx of default arguments
+
+a default argument is defined by assigning a value to a function parameter in it declaration
+
+return_type name (p1=v1 , p2=v2 , ....);
+
+v1,v2 are default values for the parameters  p1 , p2 ...respectiverly
+
+
+
 
 
 
