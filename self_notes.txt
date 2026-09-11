@@ -567,6 +567,14 @@ void f(int a =22)
 
 3. Default arguments must be provided from right to left 
 
+in a function with multiple parameters , default valyes must be provided from the rightmost parameter to the left , it means that if a parameter has a default arguments all parameters to its right muct have default values 
+
+valid 
+void func(int x , int y =20)
+
+invalid as y doesnt have a default value
+void func(int x =10, int y);
+
 
 
 
