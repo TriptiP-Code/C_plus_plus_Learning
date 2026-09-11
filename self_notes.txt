@@ -575,6 +575,22 @@ void func(int x , int y =20)
 invalid as y doesnt have a default value
 void func(int x =10, int y);
 
+4. Ambiguity in function overloading
+
+if a function containing default arguments is overloaded , then we need to make sure it is not ambiguous to the compiler otherwise it will throw and error
+
+valid 
+void f(int a =10 , int b =20);
+
+will throw error as the signature is same
+void f(int a);
+
+will also throw error 
+void f (int a);
+
+will also throw an error
+void f (int a , int b)
+
 
 
 
