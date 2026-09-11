@@ -541,7 +541,31 @@ return_type name (p1=v1 , p2=v2 , ....);
 
 v1,v2 are default values for the parameters  p1 , p2 ...respectiverly
 
+RULES TO FOLLOW 
 
+1. default values should be specified in function declarartion
+the default values for parameters should be specified in the function declaration . if a function is declared and defined separately , the default values must be in the declaration , not in definition 
+
+void func(int x =10);
+
+void func(int x){
+  cout <<"value :"
+<<x<<endl;
+}
+
+2. Default Arguments cannot be modified 
+
+once default arguments are defined in the declaration they cannot be modified in the function definition , if u try to change the default value in the definition , it will result in a compilation error 
+
+void f (int a =10);
+this definition will throw an error
+
+void f(int a =22)
+{
+  statements
+}
+
+3. Default arguments must be provided from right to left 
 
 
 
