@@ -609,4 +609,15 @@ INLINE FUNCTION WITH A LARGER FUNCTION
 
 THE INLINE KEYWORD DOES NOT GURANTEE THAT A FUNCTION WILL BE EXPANDED AT EVERY CALL , the compiler considers factors such as function size , ptimization settings , recursion and whether inlining is benefical 
 
+Compiler decisions for inline functions 
+
+the inline keyword does not force the compiler to inline a function 
+the compiler may inline a function declared with inline 
+
+the compiler may also inline a function that is not explicitly declared with inline
+
+the compiler considers factors such as dunctions size , optimization level , call frequency , and vailable optimization opportunities
+
+functions contanining loops , recursion or conditional statemets are not automatically excluded from inlining 
+
 
