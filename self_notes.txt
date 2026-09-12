@@ -595,3 +595,13 @@ e.g : find area of rectangle with optional length
 
 we wish to keep the rectangle height optional in case it is not provided to the are calculator function , one approach could be to create 2 overloaded functions , one that takes 2 parameters and one that takes one , however this can be simplified by using default argumets instead of function overloading by specifying optional values
 
+INLINE FUNCTION IN C++
+
+A function for which the compiler may replace the function call with the functions code to reduce function call overhead 
+
+the inline keyword is only a request to the compiler and the compiler may choose whether to inline the function 
+
+inline functions are mainly useful for small frequently called functions where call overhead may matter 
+
+they also allow a function definition to appear in multiple translation units , make them useful in header files 
+
