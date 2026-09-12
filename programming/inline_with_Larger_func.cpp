@@ -12,3 +12,6 @@ int main()
   displayMessage();
   return 0;
 }
+
+// the function contains a loop and performs multiple operations , although it is declared inline , the compiler may decide not to inline it , the inline keyword does not force code expansion  
+
