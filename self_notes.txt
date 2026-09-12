@@ -605,3 +605,8 @@ inline functions are mainly useful for small frequently called functions where c
 
 they also allow a function definition to appear in multiple translation units , make them useful in header files 
 
+INLINE FUNCTION WITH A LARGER FUNCTION 
+
+THE INLINE KEYWORD DOES NOT GURANTEE THAT A FUNCTION WILL BE EXPANDED AT EVERY CALL , the compiler considers factors such as function size , ptimization settings , recursion and whether inlining is benefical 
+
+
