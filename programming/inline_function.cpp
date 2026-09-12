@@ -13,3 +13,5 @@ int main()
   cout<<"sum:"<<result <<endl;
   return 0;
 }
+
+// the getSum() function is declared using the inline keyword , the compiler may replace the function call with its body during compilation , potentially reducing function overhead 
