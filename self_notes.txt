@@ -669,3 +669,14 @@ recursive case : is the eau in which the recursive call is present in the functi
 
 base condition : terminates the recursion
 
+
+returntype function(parameters){
+
+  if (base condition){
+    return base value ;
+  }
+
+  return recursive expression involving 
+  function(modified parameters);
+}
+
