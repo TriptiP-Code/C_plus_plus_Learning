@@ -693,3 +693,13 @@ recursive case
 
 printHello (n-1);
 
+WORKINGGGG
+
+whenever a function calls itself , the current function state is stored in the stack and new recrsive calls continue until the base case is reached 
+
+the descending phase represents recursice calls going deeper into the function
+
+the ascending phase begins after reaching the base case where functions retutn one by one from the stack 
+
+the following example demonstartes both the descending phase (going deeper into recursion ) and the ascending phase (returing back from recursion):
+
