@@ -661,3 +661,11 @@ the function that calls itself is known as a recursive function
 
 each self call of the function is called a recursive call 
 
+RECURSIVE FUNCTION 
+
+that calls itself is called a recursive function , when a recursive function is called , it executes a set of instruction and then calls itself to execute the same set of instructions with a sammler input , a recursive function should contain 
+
+recursive case : is the eau in which the recursive call is present in the function 
+
+base condition : terminates the recursion
+
