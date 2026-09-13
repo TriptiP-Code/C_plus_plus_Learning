@@ -621,3 +621,15 @@ the compiler considers factors such as dunctions size , optimization level , cal
 functions contanining loops , recursion or conditional statemets are not automatically excluded from inlining 
 
 
+INLINE FUNCTIONS AND MULTIPLE DEFINITIONS 
+
+The inline specifier also has an important role in the c++ One definition rule (ODR)
+
+an inline function can have the same definition in multiple trasnlation units 
+
+this makes inline functions suitable for definitions in header files included by multiple source files 
+
+the definitons must satisfy the requirements of the c++ ODR
+
+The inline keyword does not necessarilty mean that the function will be physically substituted every call 
+
