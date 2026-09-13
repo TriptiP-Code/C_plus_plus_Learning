@@ -642,3 +642,14 @@ inline int square(int n){
 
 the header can be included in multiple source files without causing a multiple source files withhout causing a multiple definition violation provided the inline definition satisfies the ODR requirements 
 
+INLINE AND VIRTUAL FUNCTIONS
+
+A virtusl function can be inlined when the compiler can determine the actual function being called , such as through devirtualization , therefore it is incorrect to say that virtual functions can never be inlined 
+
+virtual dispatch normally selects the function at run time
+
+if the compiler can determine the actual object type it may eliminate the virtual call 
+after determining the target function the compiler may inline it 
+
+thus virtual functions and inlining are not mutually exclusive 
+
