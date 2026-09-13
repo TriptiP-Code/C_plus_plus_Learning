@@ -633,3 +633,12 @@ the definitons must satisfy the requirements of the c++ ODR
 
 The inline keyword does not necessarilty mean that the function will be physically substituted every call 
 
+example 
+//math_utils.h 
+
+inline int square(int n){
+  return n*n;
+}
+
+the header can be included in multiple source files without causing a multiple source files withhout causing a multiple definition violation provided the inline definition satisfies the ODR requirements 
+
