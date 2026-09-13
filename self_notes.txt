@@ -680,3 +680,16 @@ returntype function(parameters){
   function(modified parameters);
 }
 
+
+this structure allows problems to be broken down into simpler versions of them selves making recursion a powerful tool for solving problems that can be defined in terms of smaller instances 
+
+according to this from the first example , we can deduce that :
+
+base condition 
+
+if (n==0) return ;
+
+recursive case 
+
+printHello (n-1);
+
