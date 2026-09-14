@@ -762,3 +762,16 @@ index cannot be negative or greater than size of the array minus 1 .
 
 also it can also be any expression that results in valid index value 
 
+2. UPDATE ARRAY ELEMENTS 
+
+To change the element at a particular index in an array , just use the = assignment operator with new value as right hand expression while accessing the array element
+
+array_name[index]=value;
+
+3. TRAVERSE ARRAY 
+
+Traversing means visiting each element one by one , the advantage of array is that it can be easily traversed by using a loop with loop variable that runs from 0 to size - 1 , we use this loop variable as index of the array and access each elemt one by one sequentially 
+
+4. SIZE OF ARRAY 
+
+The size of array refers to the number of elemts that can be stored in the array , the array does not contain the info about its size but we can extract the using sizeof() operator 
