@@ -703,3 +703,11 @@ the ascending phase begins after reaching the base case where functions retutn o
 
 the following example demonstartes both the descending phase (going deeper into recursion ) and the ascending phase (returing back from recursion):
 
+ARRAYS
+
+Array is a fixed size collection of elements of same data type stored in contigous memory locations , each element can be accessed using its index 
+
+Array indexing starts from 0 , so the 1st element is at index 0 and the last element is at size -1 
+
+the size of a built in array is fixed after declaration and can be detemined using the sizeof operator when the array is in the same scope 
+
