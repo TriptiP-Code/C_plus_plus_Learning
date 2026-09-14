@@ -727,3 +727,24 @@ this creates an array with name arr that can store 5 integers
 
 when we declare an array the elements of array do not contain any valid valye 
 
+
+Initialize an Array 
+
+initialisation means assigining initial values to array elemets , we can initialize any array by providing values inside curly braces { } , which are assigned to the array elemts in order 
+
+int arr[5]={2,4,8,12,16};
+
+These values will be assigned sequentially , it means that the 1st elemts indx 0 , will be 2 , second will be 4 , and so on . The numbers of values in the list cannot be more than the size of the array but they can be less than the size , this is called partial initialization 
+
+int arr[5]={2,4,8};
+
+the size of the array can be skipped if the size should be same as the numbers of values 
+
+int arr[] ={ 2, 4, 8, 12, 16};
+
+moreover all the elemets can be easily initialised to 0 as shown below 
+
+int arr[5] ={0};
+
+this works because the 1st element is initialised with 0 , and the remaining elemets are automatically initialized to 0 while similar syntax can be used with other valued e.g {5} only {0} results in all elemts being zero 
+
