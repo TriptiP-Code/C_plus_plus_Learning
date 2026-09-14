@@ -711,3 +711,19 @@ Array indexing starts from 0 , so the 1st element is at index 0 and the last ele
 
 the size of a built in array is fixed after declaration and can be detemined using the sizeof operator when the array is in the same scope 
 
+Declaration of an ARRAY 
+
+we can create/declare an array by simply specifying the data type 1st and then the name of the array with its size inside [] square brackets 
+
+data_type array_name [size]
+
+where data_type specifies the type of elemts stored in the array 
+array_name is the name of the array
+size specified the number of elemts the array can store
+
+int arr[5];
+
+this creates an array with name arr that can store 5 integers 
+
+when we declare an array the elements of array do not contain any valid valye 
+
