@@ -748,3 +748,17 @@ int arr[5] ={0};
 
 this works because the 1st element is initialised with 0 , and the remaining elemets are automatically initialized to 0 while similar syntax can be used with other valued e.g {5} only {0} results in all elemts being zero 
 
+OPERATIONS ON ARRAY ELEMETS 
+
+these are the common actions performed on arrays to store , access , modify and manage data efficiently
+
+1. ACCESS ARRAY ELEMENTS 
+
+Elements of an array can be accessed by their position in the sequence , indexes of an array starts from 0 instead 1 . we just have to pass this index inside the [] square brackets with the array name aas given 
+
+array_name [index];
+
+index cannot be negative or greater than size of the array minus 1 .
+
+also it can also be any expression that results in valid index value 
+
