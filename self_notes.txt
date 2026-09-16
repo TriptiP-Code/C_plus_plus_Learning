@@ -843,3 +843,17 @@ int arr[2][4] ={0};
 
 this can be only done for 0 , not for any other value 
 
+ACCESS AND UPDATE ELEMETS 
+
+elements of a 2d array have to be accessed using row and coloumn indices inside [] square brackets , it is similar to matrix element position but the only difference is that here indexing starts from 0.
+
+the value of any element can be updated by using = assignemnt operator 
+
+arr[i][j];
+array_name[i][j]=new_value
+
+where i is the index of row , j is the index of the coloumsn and new_value to updated , the range of indexes should be :
+
+0<= i<=(row_size - 1);
+0<= j <=(col_size -1);
+
