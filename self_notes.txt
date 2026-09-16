@@ -787,3 +787,28 @@ it is an array that has exactly 2 d , it can be visualised in the form of 2 rows
 
 3 D array has exactly 3 d , it can be visualised as a collection of 2 d arrays stacked on top of each other to create the 3 d 
 
+SYNTAX OF MULTIDIMENSIONAL arrays 
+
+data_type arrray_name [s1][s2]..........[sn];
+
+where s1, s2, ......sn are the size of each dimension 
+
+e.g 
+
+int two_d[2][4];
+int three_d[2][4][8];
+
+MULTIDIMENSIONAL ARRAYS SIZE 
+
+For 1D array the length of the array is simply its size too , but multidimensional arrays have extra dimensions , so the size of each dimension is considered separately 
+the size od multidimensional array is the product of all its dimension size it is similar to calculating area in 2d and volume in 3d 
+
+for e.g consider the below array 
+
+int arr1[2][4];
+the array int arr[2][4] can store total (2*4)=8 elements (product of its dimensions)
+
+the size in byes can be calculated by multiplying the number of elemets by size of each element or we can just use sizeof operator 
+
+in this case size in bytes =4*8 = 32 bytes
+
