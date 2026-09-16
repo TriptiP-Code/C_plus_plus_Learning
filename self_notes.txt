@@ -775,3 +775,15 @@ Traversing means visiting each element one by one , the advantage of array is th
 4. SIZE OF ARRAY 
 
 The size of array refers to the number of elemts that can be stored in the array , the array does not contain the info about its size but we can extract the using sizeof() operator 
+
+MULTI DIMENSIONAL ARRAY 
+
+It can be defined as an array that haas more than one dimension , having more than one dimension means it can grow in multiple directions , 
+
+2 D Array
+it is an array that has exactly 2 d , it can be visualised in the form of 2 rows and columne organised in 2 d plane
+
+3 D array
+
+3 D array has exactly 3 d , it can be visualised as a collection of 2 d arrays stacked on top of each other to create the 3 d 
+
