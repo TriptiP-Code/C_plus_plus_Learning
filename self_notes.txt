@@ -812,3 +812,34 @@ the size in byes can be calculated by multiplying the number of elemets by size 
 
 in this case size in bytes =4*8 = 32 bytes
 
+Types of MULTIDIMENSIONAL ARRAYS
+
+We can have any dimensions in an array as per requirement but the complexity of handling them also increases exponentially that is why the most widely used multidimensional arrays are
+
+2 D Aarray and 3 D array
+
+2 D Array in c++ is a collection of elemts organised the form of rows and coloumns it can be visualized as a table or a grid
+
+create 2D Array 
+
+int arr[2][4];
+
+initialise 2D Array 
+
+like 1D arrays , 2D arrays can also be initialised using a list of values enclosed inside { }curly brackets but as 2D arrays have 2 dimensions the list is nested inside another list to initialize each dimension one by one , it means that each row values are nested inside one big list 
+
+int arr[2][4] = {{0,1,2,3} ,{4,5,6,7}};
+
+nesting can also be omitted and values will still be assigned sequentially
+
+int arr[2][4]={0,1,2,3,4,5,6,7};
+
+the above array has 2 rows and 4 columns , the elemets are filled in a way that the 1st 4 elemts are filled in the 1st row and the next 4 elemts are filled in the second row , the valued will be initialized sequentially 
+
+it is to be noted that the number of valued should not exceed the total number of elemtnts an array can store , it can have less value (partial initialization) but cannot have more values 
+
+if all the elements are to be initialized to 0 , then this syntax can be used
+int arr[2][4] ={0};
+
+this can be only done for 0 , not for any other value 
+
