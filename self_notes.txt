@@ -857,3 +857,9 @@ where i is the index of row , j is the index of the coloumsn and new_value to up
 0<= i<=(row_size - 1);
 0<= j <=(col_size -1);
 
+
+Traverse 2D Array 
+
+2 loops nested inside each other are needed to traverse a 2D array , 1st loop is used to move through the rows of 2D array , while other is used to move though coloumsn in each row to access all the elements of the row 
+
+
