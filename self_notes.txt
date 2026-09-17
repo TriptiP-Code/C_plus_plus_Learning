@@ -862,4 +862,37 @@ Traverse 2D Array
 
 2 loops nested inside each other are needed to traverse a 2D array , 1st loop is used to move through the rows of 2D array , while other is used to move though coloumsn in each row to access all the elements of the row 
 
+3 D ARRAYS
+
+3 d array is collection of elements org in 3d cuboid like structure , it can be visualized as a series of 2 d arrays stacked on top of each other 
+
+2 declare a 3d array in c++ we need to specify its 3rd dimension along with 2d
+
+int arr[2][2][3];
+
+initialise 3d Array
+like 2d arrays , 3d arrays can also initialise using a list of values enclosed inside {} curly braces , however in 3d array the values are grouped into 2d arrays and each 2d array is nested inside another set of curly brackets 
+
+int arr[2][2][3]={ 
+  {{0,1,2},{3,4,5}},
+  {{6,7,8},{9,10,11}}
+};
+
+alternarively nesting can be omitted and the values will still be filled sequentially
+
+int arr[2][2][3]={0,1,2,3,4,5,6,7,8,9,10,11};
+
+this array has 2 layers depth , 2 rows per layer , and 3 coloums per row , the valyes are filled sequentially across the layers 
+
+if all the elemets are to be initialised to 0 , then this sunatx can be used
+
+int arr[2][2][3]={0};
+
+access and update elements using 3 indicies : depth row coloums 
+
+0<= depth <= depthsize -1
+0<= row <=rowsize -1
+0<= coloumn <= coloumnsize -1
+
+
 
