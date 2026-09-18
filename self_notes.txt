@@ -894,5 +894,13 @@ access and update elements using 3 indicies : depth row coloums
 0<= row <=rowsize -1
 0<= coloumn <= coloumnsize -1
 
+STRINGS IN C++
+
+Strings in c++ are objects of the std::string class , they are used to represent and manipulate sequences of characters 
+
+unline c-style character arrays (char[]) , std::string handles memeory management automatically and provides a wide range of built in functions for ease of use 
+
+can automatically grow and shrink as you add or remove char , unlike fixed sise c style strings , one can easily access chars , join strings , compare them extract substrings and search within strings usng built in functions 
+
 
 
