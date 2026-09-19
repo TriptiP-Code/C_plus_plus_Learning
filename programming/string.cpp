@@ -10,14 +10,16 @@ int main()
   {
     cout<<str[i];
   }
+  cout<<endl;
   cout<<"using range based for loop: ";
   for(char ch : str)
   {
     cout<<ch;
   }
   cout<<endl;
+
   cout<<"using iterator: ";
-  for(auto it =str.begin(); it != str.endl() ; it++){
+  for(auto it =str.begin(); it != str.end() ; it++){
     cout<<*it;
   }
   cout<<endl;
