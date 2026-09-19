@@ -928,4 +928,10 @@ characters of a string can be accessed using the [] operator or .at() function
 
 time complexity for accessing chars is 0(1)
 
+STRING LENGTH 
+
+The number of chars in a string can be found using size() or length()
+
+time comolexity to finf string length is 0(1).
+
 
