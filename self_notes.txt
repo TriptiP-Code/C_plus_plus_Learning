@@ -922,4 +922,10 @@ initialization of string assigns chars to the string at the time of creation
 a string can be initialised directly using = or constrtuctor syntax with text inside quotes
 
 
+ACCESSING CHARACTERS 
+
+characters of a string can be accessed using the [] operator or .at() function 
+
+time complexity for accessing chars is 0(1)
+
 
