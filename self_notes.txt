@@ -941,3 +941,9 @@ Strings can be joined using the + operator or the append() function
 the + operator creates a new string while append() modifies the existing string in place 
 time complexity for concatenation is o(n+m), where n is the size of string and m is the size of the string to be concatenated
 
+MODIFYING A STRING 
+
+Chars of a string can be added with push_back() , removed with pop_back() or altered using insert() and erase()
+
+time complexity for push/pop is O(1) and o(n) for insert/erase 
+
