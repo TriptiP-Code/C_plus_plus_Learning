@@ -947,3 +947,11 @@ Chars of a string can be added with push_back() , removed with pop_back() or alt
 
 time complexity for push/pop is O(1) and o(n) for insert/erase 
 
+SUBSTRING EXTRACTION 
+
+The substr(pos,len) is used to extract a part of a tring , where pos means the starting position and len means how many chars you want to copy
+
+this function creared a new string containing the selected portion, starting at pos and copying len chars 
+
+time complexity of extraction is O(len).
+
