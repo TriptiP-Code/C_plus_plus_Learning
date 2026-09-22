@@ -978,3 +978,8 @@ push_back() : this function is used to push the passed char at the end if the st
 pop_back() : this function is used to remove all the elements of the string 
 
 clear() : this function is used to remove all the elements of the string 
+
+find() : this function is used to search for a certain substring inside a string and returns the position of the 1st char of yhe substring 
+
+replace() : replaces a position of the string with another string 
+
