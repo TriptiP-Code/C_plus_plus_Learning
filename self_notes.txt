@@ -973,3 +973,8 @@ size() : used to find the size of string
 
 resize() : this function is used to resize the length of the string up to the given number of characters
 
+push_back() : this function is used to push the passed char at the end if the string
+
+pop_back() : this function is used to remove all the elements of the string 
+
+clear() : this function is used to remove all the elements of the string 
