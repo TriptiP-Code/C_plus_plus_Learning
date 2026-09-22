@@ -955,3 +955,9 @@ this function creared a new string containing the selected portion, starting at 
 
 time complexity of extraction is O(len).
 
+SEARCHING IN A STRING
+
+The find() function is used to search for a substring inside a string , if found it returns the index positioin where the substring starts if not it returns a special value 
+
+time complexity to search is O(n*m) where n is the length of string and m is the substring length 
+
