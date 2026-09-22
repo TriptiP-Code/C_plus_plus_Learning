@@ -969,3 +969,7 @@ length() : this function returns the length of the string
 
 swaap() : this function is used to swap the values of 2 string 
 
+size() : used to find the size of string
+
+resize() : this function is used to resize the length of the string up to the given number of characters
+
