@@ -961,3 +961,11 @@ The find() function is used to search for a substring inside a string , if found
 
 time complexity to search is O(n*m) where n is the length of string and m is the substring length 
 
+C++ STRING FUNCTIONS 
+
+C++ provides some inbuilt functions which are used for string manipulation such as the strcpy()  and strcat() functions for copying and concatenating strings , some of them are
+
+length() : this function returns the length of the string 
+
+swaap() : this function is used to swap the values of 2 string 
+
