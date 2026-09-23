@@ -1012,4 +1012,18 @@ string str3;
 
 here str1 and str2 are initialized with valued while str3 is an empty string 
 
+COMMON STRING OPERATIONS 
+
+The std::string class provided several member functions for performing common string operations 
+
+Input functions 
+
+these functions are used to read or mdify the contents of string 
+
+getline() :  reads an entire line from the input stream 
+
+push_back() : appends a character to the end of the string 
+
+pop_back() : removed the last charcater from the string 
+
 
