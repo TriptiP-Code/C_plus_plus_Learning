@@ -36,3 +36,5 @@ int main()
 
   return 0;
 }
+
+// resize() changes the number of characters while capacity() and shrink_To_fit() help manage memory efficiently 
