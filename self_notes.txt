@@ -1026,4 +1026,16 @@ push_back() : appends a character to the end of the string
 
 pop_back() : removed the last charcater from the string 
 
+CAPACITY FUNCTIONS 
+
+These functions  provide information about the size and memory allocated to a string 
+
+capacity() : returns the current capacity of the string 
+
+resize() : changes the size of the string
+
+length() : returns the number of characters in the string 
+
+shrink_to_fit() : reduces the strings capacity to match its size 
+
 
