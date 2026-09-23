@@ -991,4 +991,15 @@ erase() : this function is used to remove a certain part of a string
 
 rfind() : this function is used to find the strings last occurance 
 
+STRING CLASS 
+
+std::string class in c++
+
+the std::string class is the standard c++ library class used to represent and manipulate strings , it automatically manages memory making strings  handling safer and more convinient than using character arrays 
+
+dynamically manahes memory without requiring manual allocation or null termination 
+provided a wide range of built in functions for creating , accessing , modifying , comparing and searching strings 
+
+declared in the <string> header and part of the std namespace 
+
 
